@@ -16,10 +16,11 @@
     $results = mysqli_query($connection, $query);
     
 
+
     if ($results)
     {
-        echo"Records have been successfully Added";
-        // $action_page = "index.html";
+        // echo"Records have been successfully Added";
+    header("Location: index.html");
     }
     
     else{

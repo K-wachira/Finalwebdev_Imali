@@ -1,8 +1,8 @@
 <?php 
 $dbhost = 'localhost';
-$dbuser = 'root';
-$dbpass ='';
-$dbname = 'galore_database';
+$dbuser = 'id13523093_root';
+$dbpass ='PcwXcYTD1(n_3~}<';
+$dbname = 'id13523093_galore_database';
 
 $connection =mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
 
